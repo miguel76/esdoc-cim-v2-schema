@@ -1,5 +1,8 @@
-[name]
-esdoc-cim-v2-schema
+[project]
+name = "esdoc-cim-v2-schema"
+version = "1.22"
+dependencies = []
+
 
 [build-system]
 # Minimum requirements for the build system to execute.
