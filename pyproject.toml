@@ -1,3 +1,6 @@
+[name]
+esdoc-cim-v2-schema
+
 [build-system]
 # Minimum requirements for the build system to execute.
 requires = ["setuptools", "wheel"]  # PEP 508 specifications.
