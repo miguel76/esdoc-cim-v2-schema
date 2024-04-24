@@ -1,19 +1,14 @@
-[project]
+[tool.poetry]
 name = "esdoc-cim-v2-schema"
-version = "1.22"
-dependencies = []
+version = "2.2.0"
+description = ""
+authors = ["Earth System Documentation (ES-DOC) project <support@es-doc.org>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
 
 
 [build-system]
-# Minimum requirements for the build system to execute.
-requires = ["setuptools", "wheel"]  # PEP 508 specifications.
-
-# This file is currently used only to configure the black Python code
-# formatter, rather than provide project metadata (see
-# https://www.python.org/dev/peps/pep-0621/).
-
-# To run the black checker with this configuration, execute 'black .' in the
-# root of this repository. See https://black.readthedocs.io/en/stable/ for
-# the 'black' documentation.
-[tool.black]
-line-length = 79
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
